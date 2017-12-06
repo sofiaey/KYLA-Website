@@ -1,0 +1,66 @@
+body {
+	background-color: lightblue;
+	background-image: url("http://canhr.org/V2/images/lawfirmwebdesign_bg3.jpeg");
+	background-size: cover;
+}
+.maintitle {
+	color: white;
+	margin-left: 15px;
+	font-size: 30px;
+	font-family: Montserrat, Helvetica, sans-serif;
+	letter-spacing: 2px;
+}
+.centertext {
+  margin: 0 auto;
+  width: 800px;
+	color: white;
+	padding: 50px 50px;
+	font-size: 60px;
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-width: 5px;
+	border-style: solid;
+  border-collapse: seperate;
+  border-spacing: 15px 50px;
+	border-color: white;
+	display: inline-block;
+	padding: 20px 20px;
+}
+/*this is the nav bar on the top right*/
+
+.topnav {
+  margin-top: 10px;  
+}
+
+.topnav a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+  letter-spacing: 1px;
+	font-size: 15px;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+.topnav a:hover {
+	background-color: black;
+	color: white;
+}
+
+img.responsive {
+  height: auto;
+  width: 150px;
+}
+
+
+#nav-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+}
